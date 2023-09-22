@@ -1,0 +1,183 @@
+.DataTable{
+   color: #505050;
+   display: flex;
+   flex-direction: column;
+   position: relative;
+   float: right;
+   width: 79% !important;
+   margin-top: 2%;
+   padding-right: 3% !important;
+}
+.twoSection{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+.registration,.completed,.registration1,.completed1{
+   width: 48%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+   text-align: center;
+   font-weight: bold;
+}
+/* Intersection Part*/
+.registration{
+   background-color: #0d61d3;
+   color: #F8F8F8 ;
+}
+.completed{
+   background-color:#ACACAC ;
+ 
+}
+.reganchor{
+   color: #F8F8F8 !important;
+   text-decoration: none;
+}
+.companchor{
+   color: #505050 !important;
+   text-decoration: none;
+}
+.completed1{
+   background-color: #0d61d3;
+   color: #F8F8F8;
+}
+
+.registration1{
+   background-color:#ACACAC ;
+}
+.reganchor1{
+   color: #505050 !important;
+   text-decoration: none;
+}
+.companchor1{ 
+   color: #F8F8F8 !important;
+   text-decoration: none;
+}
+.registration1:hover{
+   background-color: #0d61d3;
+}
+.completed:hover,.registration:hover{
+   background-color: #0d61d3 !important;
+   color: #F8F8F8 !important;
+}
+.Application_container2:hover .AppAnchor2{  
+      color:#f7ebe9 !important;
+}
+.Application_container2:hover,.Application_container1:hover{
+   background-color: #0d61d3 !important;
+   color: #F8F8F8 !important;
+}
+/* PopUp Part************************************************************************* */
+.CrossMark{
+   font-size: xx-large;
+    color: #0d61d3;
+}
+#pop,#pop1,#pop2{
+   background-color:#ECF2FA;
+   display: none;
+   position: absolute; 
+   width: 75%;
+   top: 3%;
+   left: 13%;
+   border-radius: 5%;
+}
+#pop1,#pop2{
+   background-color:#ECF2FA;
+   display: none;
+   position: absolute; 
+   width: 75%;
+   top: 3%;
+   left: 13%;
+   border-radius: 5%;
+
+}
+
+.cross{
+   position: relative;
+   float: right;
+   margin-top: 4%;
+   margin-right: 4%;
+}
+.date{
+ clear: both;
+ margin-left: 4%;
+ font-size: smaller;
+}
+.popPp1{
+            height: 10vw;
+            width: 18%;
+            margin-right: 15%;           
+            margin-left: 7%;
+            margin-bottom: 4%;
+            background-color: #f8f8f8;
+            border-radius: 50%;
+            border: 1px solid #505050;
+}
+.popContainer{
+  display: flex;
+  flex-direction: row;
+}
+.click_view{
+   font-size: smaller;
+   margin-bottom: 3% !important;
+}
+.ViewDetails{
+   border: 1px solid transparent;
+   box-shadow: 0px 0px 5px #505050;
+   width: 40%;
+   margin-right: 10%;
+   cursor: pointer !important;
+}
+.MobileNo{
+   text-align: end;
+   margin-top: -14% ;
+   margin-bottom: 8%;
+   margin-right: 7%;
+   font-size:1.1rem;
+}
+.Accept,.Reject{
+background-color: transparent !important;
+padding: 1%;
+box-shadow: 0px 0px 5px #505050;
+border-radius: 10% !important;
+padding-top: 0.5% !important;
+padding-bottom: 0.4% !important;
+}
+.Reject{
+   margin-right: 5%;
+   border: 1px solid #EE6C4D;
+   color: #EE6C4D;
+   font-weight: bold;
+}
+.Accept{
+   color: #0d61d3;
+   border: 1px solid #0d61d3;
+   font-weight: bold;
+   margin-right: 4%;
+}
+.RejectMessage{
+   margin-bottom: 5%;
+   margin-top: 6rem;
+}
+.textarea-label{
+   position: absolute;
+   left: 8%;
+   background-color: #ECF2FA;
+   font-size: larger;
+   font-weight: bold;
+   top: 55%;
+   padding-left: 1%;
+   padding-right: 1%;
+}
+.txtarea-margin{
+   margin-left: 5%;
+   background-color: #ECF2FA !important;
+   border: 2px solid #0d61d3 !important;
+   padding: 2%;
+   margin-bottom: 3%;
+}
+/* adhaar image */
+.Adhaar-image{
+   width: 100%;
+   height: 100%;
+}

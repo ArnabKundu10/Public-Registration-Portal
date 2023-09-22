@@ -1,0 +1,33 @@
+.SearchForm{
+   margin-top: 7% !important;
+   float: right;
+   position: relative;
+   border-radius: 50% !important;
+   border: 1px solid transparent;
+   padding-right: 1.5%;
+   color: #505050 !important;
+   width: 30%;
+}
+.SearchInput{
+border: 1px solid transparent;
+color: #505050 !important;
+width: 75%;
+margin-right: -2%;
+font-weight: bold;
+font-size: 0.8rem;
+padding: 2.9%;
+background-color: #ECF2FA;
+border-top-left-radius: 8%;
+border-bottom-left-radius: 8%;
+}
+.SearchBtn{           
+   background-color: #f7ebe9;
+   border: 1px solid transparent;
+   color: #505050;
+   padding-left: 4% !important;
+   padding-right: 4% !important;
+   padding-top: 2%;
+   padding-bottom: 2.5% ;
+   border-top-right-radius: 8% !important ;
+   border-bottom-right-radius: 8% !important;
+}

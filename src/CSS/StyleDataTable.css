@@ -1,0 +1,39 @@
+.DataTable{
+   color: #505050;
+   display: flex;
+   flex-direction: column;
+   position: relative;
+   float: right;
+   width: 79% !important;
+   padding-right: 3% !important;
+}
+table,tr,th,td{
+   text-align: center;
+
+}
+tr th{
+   background-color: #0d61d3;
+   color:#f7ebe9 !important ;
+   font-weight: bold;
+}
+.anchorView{
+color: #EE6C4D;
+font-weight: bold;
+text-decoration: none;
+}
+table tr td,table tr th{
+   padding-top: 1% !important;
+   padding-bottom: 1% !important;
+}
+.datarow1{
+   background-color: #f7ebe9;
+}
+.datarow2{
+   background-color: #ECF2FA;
+}
+.green{
+   color: #2ef321;
+}
+.red{
+   color:#ff0000;
+}

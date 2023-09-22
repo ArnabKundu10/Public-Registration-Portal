@@ -1,0 +1,16 @@
+.NavBar{
+   position: fixed;
+   width: 100%;
+   height: auto !important;
+   background-color:#EE6C4D;
+   padding-bottom: -5% !important;
+}
+.icon1{
+   font-size: 280% !important;
+   color: #F8F8F8;
+   
+}
+.riologo{
+   height: 7vh;
+ }
+   
