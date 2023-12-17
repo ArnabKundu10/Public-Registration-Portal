@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useState } from "react";
 import "../CSS/StyleDataTable.css";
 function DataTable({ Rio }) {
   const [UserData, SetData] = useState([]);
@@ -14,7 +14,7 @@ function DataTable({ Rio }) {
       .catch((error) => {
         console.log(error);
       });
-  }, []);
+  }, [PorS]);
   return (
     <>
       <div className="container DataTable mt-0">

@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useState } from "react";
 import "../CSS/StyleDataTable.css";
 function DataTable({ setstyle, Rio }) {
   const [UserData, SetData] = useState([]);
@@ -50,7 +50,7 @@ function DataTable({ setstyle, Rio }) {
                         className="anchorView"
                         onClick={ShowPopUp}
                         id="AnchorView"
-                        href="#"
+                        href="javascript:void(0)"
                       >
                         View
                       </a>
@@ -70,7 +70,7 @@ function DataTable({ setstyle, Rio }) {
                         className="anchorView"
                         onClick={ShowPopUp}
                         id="AnchorView"
-                        href="#"
+                        href="javascript:void(0)"
                       >
                         View
                       </a>
@@ -90,7 +90,7 @@ function DataTable({ setstyle, Rio }) {
                   className="anchorView"
                   onClick={ShowPopUp}
                   id="AnchorView"
-                  href="#"
+                  href="javascript:void(0)"
                 >
                   View
                 </a>
@@ -103,7 +103,7 @@ function DataTable({ setstyle, Rio }) {
               <td>RP-A-3241</td>
               <td>6547-015-987</td>
               <td>
-                <a className="anchorView" onClick={ShowPopUp} href="#">
+                <a className="anchorView" onClick={ShowPopUp} href="javascript:void(0)">
                   View
                 </a>
               </td>
