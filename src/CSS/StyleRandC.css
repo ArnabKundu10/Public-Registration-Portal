@@ -1,5 +1,5 @@
 .DataTable{
-   color: #505050;
+   color: #4e4a4a;
    display: flex;
    flex-direction: column;
    position: relative;
@@ -22,7 +22,7 @@
 }
 /* Intersection Part*/
 .registration{
-   background-color: #0d61d3;
+   background-color: #2c7ff4;
    color: #F8F8F8 ;
 }
 .completed{
@@ -34,11 +34,11 @@
    text-decoration: none;
 }
 .companchor{
-   color: #505050 !important;
+   color: #4e4a4a !important;
    text-decoration: none;
 }
 .completed1{
-   background-color: #0d61d3;
+   background-color: #2c7ff4;
    color: #F8F8F8;
 }
 
@@ -46,7 +46,7 @@
    background-color:#ACACAC ;
 }
 .reganchor1{
-   color: #505050 !important;
+   color: #4e4a4a !important;
    text-decoration: none;
 }
 .companchor1{ 
@@ -54,23 +54,23 @@
    text-decoration: none;
 }
 .registration1:hover{
-   background-color: #0d61d3;
+   background-color: #2c7ff4;
 }
 .completed:hover,.registration:hover{
-   background-color: #0d61d3 !important;
+   background-color: #2c7ff4 !important;
    color: #F8F8F8 !important;
 }
 .Application_container2:hover .AppAnchor2{  
       color:#f7ebe9 !important;
 }
 .Application_container2:hover,.Application_container1:hover{
-   background-color: #0d61d3 !important;
+   background-color: #2c7ff4 !important;
    color: #F8F8F8 !important;
 }
 /* PopUp Part************************************************************************* */
 .CrossMark{
    font-size: xx-large;
-    color: #0d61d3;
+    color: #2c7ff4;
 }
 #pop,#pop1,#pop2{
    background-color:#ECF2FA;
@@ -111,7 +111,7 @@
             margin-bottom: 4%;
             background-color: #f8f8f8;
             border-radius: 50%;
-            border: 1px solid #505050;
+            border: 1px solid #4e4a4a;
 }
 .popContainer{
   display: flex;
@@ -123,7 +123,7 @@
 }
 .ViewDetails{
    border: 1px solid transparent;
-   box-shadow: 0px 0px 5px #505050;
+   box-shadow: 0px 0px 5px #4e4a4a;
    width: 40%;
    margin-right: 10%;
    cursor: pointer !important;
@@ -138,20 +138,20 @@
 .Accept,.Reject{
 background-color: transparent !important;
 padding: 1%;
-box-shadow: 0px 0px 5px #505050;
+box-shadow: 0px 0px 5px #4e4a4a;
 border-radius: 10% !important;
 padding-top: 0.5% !important;
 padding-bottom: 0.4% !important;
 }
 .Reject{
    margin-right: 5%;
-   border: 1px solid #EE6C4D;
-   color: #EE6C4D;
+   border: 1px solid #85ee4d;
+   color: #85ee4d;
    font-weight: bold;
 }
 .Accept{
-   color: #0d61d3;
-   border: 1px solid #0d61d3;
+   color: #2c7ff4;
+   border: 1px solid #2c7ff4;
    font-weight: bold;
    margin-right: 4%;
 }
@@ -172,7 +172,7 @@ padding-bottom: 0.4% !important;
 .txtarea-margin{
    margin-left: 5%;
    background-color: #ECF2FA !important;
-   border: 2px solid #0d61d3 !important;
+   border: 2px solid #2c7ff4 !important;
    padding: 2%;
    margin-bottom: 3%;
 }

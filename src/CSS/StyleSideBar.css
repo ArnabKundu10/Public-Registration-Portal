@@ -29,14 +29,16 @@
 .Application_container2{
             background-color: transparent;
             text-align: center;
-            color: #0d61d3 ;
-            font-size: large;           
+            color: #2c7ff4 ;
+            font-size: large; 
+            border: 1px solid #2c7ff4;                      
 }
 .Application_container1{
-   background-color: #0d61d3 ;
+   background-color: #2c7ff4 ;
             text-align: center;
             color: #f7ebe9 ;
-            font-size: large;           
+            font-size: large;
+            border: 1px solid #2c7ff4;            
 }
 .AppAnchor1{
    text-decoration: none;
@@ -44,14 +46,14 @@
 }
 .AppAnchor2{
    text-decoration: none;
-    color: #0d61d3;
+    color: #2c7ff4;
 }
 .Application_container2:hover .AppAnchor2{  
    color:#f7ebe9 !important;
 }
 .Application_container2:hover{
-background-color: #0d61d3;
+background-color: #2c7ff4;
 }
 .RioTwo{
-   border: 1px solid #0d61d3;
+   border: 1px solid #2c7ff4;
 }

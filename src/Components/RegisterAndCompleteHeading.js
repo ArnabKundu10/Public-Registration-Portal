@@ -41,13 +41,13 @@ function RandC({ nowstyle, setstyle, setDataTable, data }) {
     register.current.style.color = "#505050";
     register.current.style.backgroundColor = "#ACACAC";
     complete.current.style.color = "#F8F8F8";
-    complete.current.style.backgroundColor = "#0D61D3";
+    complete.current.style.backgroundColor = "#2c7ff4";
     setDataTable(0);
   }
   function registrationParivaar(e) {
     e.preventDefault();
     register.current.style.color = "#F8F8F8";
-    register.current.style.backgroundColor = "#0D61D3";
+    register.current.style.backgroundColor = "#2c7ff4";
     complete.current.style.color = "#505050";
     complete.current.style.backgroundColor = "#ACACAC";
     setDataTable(1);
@@ -99,7 +99,7 @@ function RandC({ nowstyle, setstyle, setDataTable, data }) {
             <div className="ViewDetails text-center" onClick={AdhaarPop1}>
               <b>
                 <p className="click_view mt-1 mb-0">Click to view</p>
-                <p className="mb-1" style={{ color: "#ee6c4d" }}>
+                <p className="mb-1" style={{ color: "#85ee4d" }}>
                   Adhaar Card
                 </p>
               </b>
@@ -107,7 +107,7 @@ function RandC({ nowstyle, setstyle, setDataTable, data }) {
             <div className="ViewDetails text-center" onClick={AdhaarPop2}>
               <b>
                 <p className="click_view mt-1 mb-0">Click to view</p>
-                <p className="mb-1" style={{ color: "#ee6c4d" }}>
+                <p className="mb-1" style={{ color: "#85ee4d" }}>
                   License
                 </p>
               </b>
@@ -115,7 +115,7 @@ function RandC({ nowstyle, setstyle, setDataTable, data }) {
           </div>
         </div>
         <div className="MobileNo">
-          Mobile Number: <b style={{ color: "#ee6c4d" }}>9876-453-654</b>
+          Mobile Number: <b style={{ color: "#85ee4d" }}>9876-453-654</b>
         </div>
         <div
           className=" justify-content-end mb-5"

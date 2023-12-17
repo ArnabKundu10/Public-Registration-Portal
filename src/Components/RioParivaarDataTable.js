@@ -9,7 +9,7 @@ function DataTable({ setstyle, Rio }) {
   useEffect(() => {
     const PorS = Rio
       ? "https://jsonplaceholder.typicode.com/users"
-      : "https://fakestoreapi.com/products";
+      : "https://jsonplaceholder.typicode.com/users";
     console.log(PorS);
     fetch(PorS)
       .then((response) => response.json())
@@ -40,10 +40,10 @@ function DataTable({ setstyle, Rio }) {
               if (index % 2 === 0) {
                 return (
                   <tr className="datarow1" key={index}>
-                    <td>{Element.id}</td>
-                    <td>12-11-2022</td>
+                    <td>{index + 1}</td>
+                    <td>12-11-2023</td>
                     <td>{Element.name}</td>
-                    <td>RP-A-3240</td>
+                    <td>HJZHJVCDJ-34</td>
                     <td>{Element.phone}</td>
                     <td>
                       <a
@@ -60,7 +60,7 @@ function DataTable({ setstyle, Rio }) {
               } else {
                 return (
                   <tr className="datarow2" key={index}>
-                    <td>{Element.id}</td>
+                    <td>{index + 1}</td>
                     <td>12-11-2022</td>
                     <td>{Element.name}</td>
                     <td>RP-A-3240</td>

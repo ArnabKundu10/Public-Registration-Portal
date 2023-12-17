@@ -7,15 +7,15 @@ function Sidebar({ Rio, setRio }) {
   function RioParivaar() {
     setRio(true);
     SurakhshaStyle.current.style.backgroundColor = "transparent";
-    SurakhshaStyle.current.style.color = "#0D61D3";
-    ParivaarStyle.current.style.backgroundColor = "#0D61D3";
+    SurakhshaStyle.current.style.color = "#2c7ff4";
+    ParivaarStyle.current.style.backgroundColor = "#2c7ff4";
     ParivaarStyle.current.style.color = "#F8F8F8";
   }
   function RiyoSurakhsha() {
     setRio(false);
     ParivaarStyle.current.style.backgroundColor = "transparent";
-    ParivaarStyle.current.style.color = "#0D61D3";
-    SurakhshaStyle.current.style.backgroundColor = "#0D61D3";
+    ParivaarStyle.current.style.color = "#2c7ff4";
+    SurakhshaStyle.current.style.backgroundColor = "#2c7ff4";
     SurakhshaStyle.current.style.color = "#F8F8F8";
   }
   return (
@@ -36,14 +36,14 @@ function Sidebar({ Rio, setRio }) {
             onClick={RioParivaar}
             className="Application_container1 pt-2 pb-2"
           >
-            <b>Riyo Parivaar Application</b>
+            <b>Primary Application</b>
           </div>
           <div
             ref={SurakhshaStyle}
             onClick={RiyoSurakhsha}
             className="Application_container2 pt-2 pb-2"
           >
-            <b>Riyo Suraksha Application</b>
+            <b>Secondary Application</b>
           </div>
         </div>
       </div>

@@ -31,13 +31,13 @@ function DataTable({ Rio }) {
           </thead>
           <tbody>
             {UserData.map((Element, index) => {
-              if (Element.id % 2 !== 0) {
+              if (index % 2 === 0) {
                 return (
                   <tr className="datarow1" key={index}>
-                    <td>{Element.id}</td>
+                    <td>{index + 1}</td>
                     <td>12-11-2022</td>
                     <td>{Element.name}</td>
-                    <td>RP-A-3240</td>
+                    <td>RTYGD-23</td>
                     <td>{Element.phone}</td>
                     <td className="green">
                       <b>Accepted</b>
