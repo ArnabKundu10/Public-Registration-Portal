@@ -46,14 +46,13 @@ function DataTable({ setstyle, Rio }) {
                     <td>HJZHJVCDJ-34</td>
                     <td>{Element.phone}</td>
                     <td>
-                      <a
+                      <div
                         className="anchorView"
                         onClick={ShowPopUp}
                         id="AnchorView"
-                        href="javascript:void(0)"
                       >
                         View
-                      </a>
+                      </div>
                     </td>
                   </tr>
                 );
@@ -66,14 +65,13 @@ function DataTable({ setstyle, Rio }) {
                     <td>RP-A-3240</td>
                     <td>{Element.phone}</td>
                     <td>
-                      <a
+                      <div
                         className="anchorView"
                         onClick={ShowPopUp}
                         id="AnchorView"
-                        href="javascript:void(0)"
                       >
                         View
-                      </a>
+                      </div>
                     </td>
                   </tr>
                 );
